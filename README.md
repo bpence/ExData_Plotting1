@@ -34,11 +34,10 @@ faithfully as possible.
 <br>
 <br>
 
-## Original Instructions
-<br>
-<br>
+<h1>Original Instructions</h1>
 
-## Introduction
+
+<h2>Introduction</h2>
 <br>
 <br>
 
