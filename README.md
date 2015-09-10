@@ -29,10 +29,10 @@ on the command line:
   
 The code reproduces the plots shown in the instructions below as 
 faithfully as possible.
-
-
-
-
+<br>
+<br>
+<br>
+<br>
 
 # Original Instructions
 
