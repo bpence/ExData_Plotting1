@@ -1,22 +1,19 @@
 # Course Project 1 for Exploratory Data Analysis  
 ####September 2015 Session  
-
-
+  
 The original instructions for this readme file are included below.
 The repository here contains four .R scripts (plot1.R, plot2.R, 
 plot3.R, plot4.R) and four .png files (plot1.png, plot2.png, 
 plot3.png, plot4.png). The .R scripts generate the plots with the
 same name, based on the following assumptions:  
-
-
-<ol>
+  
+<ol>  
 <li>The .R scripts are in a working directory which contains the 
 <b>household_power_consumption.txt</b> data file.  
-<li>The package <b>dplyr</b> is installed for the R software version 
-being used.  If dplyr is not installed, use the command 
-<code>install.packages("dplyr")</code> prior to running the code.  
-
-
+<li>The package <b>dplyr</b> is installed for the R software version being used.  
+If dplyr is not installed, use the command <code>install.packages("dplyr")</code> 
+prior to running the code.  
+  
 To run the .R scripts and generate the plots, run the following code
 on the command line:  
   
