@@ -12,7 +12,7 @@ same name, based on the following assumptions:
 <b>household_power_consumption.txt</b> data file.  
 <li>The package <b>dplyr</b> is installed for the R software version 
 being used.  If dplyr is not installed, use the command 
-<code>install.packages("dplyr") prior to running the code.  
+<code>install.packages("dplyr")</code> prior to running the code.  
   
 To run the .R scripts and generate the plots, run the following code
 on the command line:  
