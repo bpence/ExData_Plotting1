@@ -29,7 +29,7 @@ x <- dat$Global_active_power
 ################################################################################
 
 breaks <- c(seq(0,8,0.5))
-par(ps=12)
+par(ps=12, bty="n")
 hist(x, xlim=c(0,7.5), xlab="Global Active Power (kilowatts)",
      ylab="Frequency", main="Global Active Power", freq=TRUE,
      breaks=breaks, col="#FB3207")
