@@ -38,9 +38,6 @@ faithfully as possible.
 
 
 <h2>Introduction</h2>
-<br>
-<br>
-
 
 
 This assignment uses data from
