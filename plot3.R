@@ -61,7 +61,7 @@ groups <- c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3") # for legend g
 # Construct plot                                                               #
 ################################################################################
 
-par(ps=14)
+par(ps=14, bty="n")
 plot(0, type="n", ylab="Energy sub metering", xlab="",xaxt="n", xlim=c(1,max(x)), 
      ylim=c(0,38)) #empty plot
 

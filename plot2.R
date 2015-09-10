@@ -59,7 +59,7 @@ breaks <- c(1,max(x)/2+1,max(x))
 # Generate the plot with appropriate formatting                                #
 ################################################################################
 
-par(ps=14)
+par(ps=14, bty="n")
 plot(x=x, y=y, type="l", ylab="Global Active Power (kilowatts)", xlab="",
      xaxt="n")
 axis(1, at=breaks, labels=xbreak)
