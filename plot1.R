@@ -3,7 +3,7 @@
 ################################################################################
 
 png(filename="plot1.png", width=480, height=480, unit="px", pointsize=12,
-    bg="white")
+    bg="transparent")
 
 
 ################################################################################
@@ -31,7 +31,7 @@ x <- dat$Global_active_power
 breaks <- c(seq(0,8,0.5))
 par(ps=12)
 hist(x, xlim=c(0,7.5), xlab="Global Active Power (kilowatts)",
-     ylab="Frequency", main="Global Active Power", freq=TRUE, border="black",
+     ylab="Frequency", main="Global Active Power", freq=TRUE,
      breaks=breaks, col="#FB3207")
 
 

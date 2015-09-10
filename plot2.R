@@ -10,7 +10,7 @@ library(dplyr)
 ################################################################################
 
 png(filename="plot2.png", width=480, height=480, unit="px", pointsize=12,
-    bg="white")
+    bg="transparent")
 
 
 ################################################################################
@@ -39,14 +39,25 @@ dat <- mutate(dat, datetime = datetime)
 
 
 ################################################################################
-# Convert the Global Active Power column to numeric and sets it to x           #
+# Convert the Global Active Power column to numeric and sets it to y           #
 ################################################################################
 
 dat[,"Global_active_power"] <- as.numeric(as.character(dat[,"Global_active_power"]))
 y <- dat$Global_active_power
+
+
+################################################################################
+# Set breaks for x-axis in plot                                                #
+################################################################################
+
 x <- seq(1,length(dat$datetime),1)
 xbreak <- c("Thu","Fri","Sat")
 breaks <- c(1,max(x)/2+1,max(x))
+
+
+################################################################################
+# Generate the plot with appropriate formatting                                #
+################################################################################
 
 par(ps=14)
 plot(x=x, y=y, type="l", ylab="Global Active Power (kilowatts)", xlab="",
