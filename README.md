@@ -9,21 +9,22 @@ same name, based on the following assumptions:
   
 <ol>  
 <li>The .R scripts are in a working directory which contains the 
-<b>household_power_consumption.txt</b> data file.  
+<b>household_power_consumption.txt</b> data file.</li>  
 <li>The package <b>dplyr</b> is installed for the R software version being used.  
 If dplyr is not installed, use the command <code>install.packages("dplyr")</code> 
-prior to running the code.</ol>  
+prior to running the code.</li></ol>  
   
 To run the .R scripts and generate the plots, run the following code
 on the command line:  
   
-<code>source("plot1.R")</code>  
+<ul>
+<li><code>source("plot1.R")</code></li>  
   
-<code>source("plot2.R")</code>  
+<li><code>source("plot2.R")</code></li>  
   
-<code>source("plot3.R")</code>  
+<li><code>source("plot3.R")</code></li>  
   
-<code>source("plot4.R")</code>  
+<li><code>source("plot4.R")</code></li></ul>  
   
   
 The code reproduces the plots shown in the instructions below as 
