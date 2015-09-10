@@ -15,7 +15,7 @@ If dplyr is not installed, use the command <code>install.packages("dplyr")</code
 prior to running the code.</li></ol>  
   
 To run the .R scripts and generate the plots, run the following code
-on the command line:  
+on the command line while inside the working directory containing the files:  
   
 <ul>
 <li><code>source("plot1.R")</code></li>  
