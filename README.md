@@ -18,21 +18,21 @@ To run the .R scripts and generate the plots, run the following code
 on the command line:  
   
 <code>source("plot1.R")</code>  
-
+  
 <code>source("plot2.R")</code>  
-
+  
 <code>source("plot3.R")</code>  
-
+  
 <code>source("plot4.R")</code>  
-
-
+  
+  
 The code reproduces the plots shown in the instructions below as 
-faithfully as possible.
+faithfully as possible.  
   
   
   
-# Original Instructions
-
+# Original Instructions  
+  
 ## Introduction
 
 This assignment uses data from
